@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fsd-checker-gen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Verifying paths for compliance with FSD architecture",
   "keywords": [
     "eslint",
@@ -22,6 +22,7 @@
     "update:eslint-docs": "eslint-doc-generator"
   },
   "dependencies": {
+    "micromatch": "^4.0.8",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {

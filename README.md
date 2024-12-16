@@ -52,9 +52,10 @@ TODO: Run eslint-doc-generator to generate the configs list (or delete this sect
 
 <!-- begin auto-generated rules list -->
 
-| Name                                       | Description                          |
-| :----------------------------------------- | :----------------------------------- |
-| [path-checker](docs/rules/path-checker.md) | feature sliced relative path checker |
+| Name                                                   | Description                                                       |
+| :----------------------------------------------------- | :---------------------------------------------------------------- |
+| [path-checker](docs/rules/path-checker.md)             | feature sliced relative path checker                              |
+| [public-api-imports](docs/rules/public-api-imports.md) | Verifying if absolute import is done from public API (index file) |
 
 <!-- end auto-generated rules list -->
 
