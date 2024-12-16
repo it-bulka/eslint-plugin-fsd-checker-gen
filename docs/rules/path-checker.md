@@ -36,3 +36,19 @@ The rule checks all imports in your code. If the import is from the same slice, 
 
 ```js
 import { someFunction } from 'features/someFeature';  // This is not a relative path
+```
+
+### Configuration
+
+#### Configuration Options
+
+- **`alias`** _(optional)_:<br>
+  Type: `string`  
+  Description: Configures the root path for import checking. If not provided, the rule operates without any alias.
+  <br>
+  <br>
+  Example:
+  ```text
+    "fsd-checker-gen/path-checker": ["error", { alias: "@" }]
+  ```
+  
