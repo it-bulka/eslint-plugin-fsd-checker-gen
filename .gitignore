@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains (IntelliJ IDEA, WebStorm, etc.)
+.idea/
+*.iml
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# NetBeans
+nbproject/private/
+dist/
+
+# Xcode
+.DS_Store
+*.pbxuser
+*.mode1v3
+*.xcworkspace/
+*.xcuserdata/
+
+# Android Studio
+.idea/
+.gradle/
+local.properties
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# General
+*.bak
+*.tmp
+.env
+.env.*
+logs/
+coverage/
+*storybook.log
